@@ -1,11 +1,11 @@
 import React from "react";
-import css from "../../static/css/title.css";
+import Navbar from "react-bootstrap/Navbar";
 
 const Title = () => {
   return (
-    <div className="title">
-      <h1>Kayla Dodd Photography</h1>
-    </div>
+    <Navbar bg="light" variant="light">
+      <Navbar.Brand href="/">Kayla Dodd Photography</Navbar.Brand>
+    </Navbar>
   );
 };
 

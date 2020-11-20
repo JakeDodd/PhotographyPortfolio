@@ -11,6 +11,7 @@ import {
   Link,
   Redirect,
 } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class App extends Component {
   constructor(props) {
