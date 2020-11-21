@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import PortfolioView
+from .views import PortfolioView, PostPictureView
 
 urlpatterns = [
-    path('', PortfolioView.as_view())
+    path('/portfolio', PortfolioView.as_view()),
+    path('/post-image', PostPictureView.as_view())
 ]
