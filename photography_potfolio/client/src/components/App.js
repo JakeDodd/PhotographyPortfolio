@@ -3,6 +3,7 @@ import { render } from "react-dom";
 import HomePage from "./HomePage";
 import GalleryPage from "./GalleryPage";
 import ContactPage from "./ContactPage";
+import AboutMe from "./AboutMe";
 import Title from "./Title";
 import {
   BrowserRouter as Router,
@@ -12,6 +13,7 @@ import {
   Redirect,
 } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../../static/css/index.css";
 
 export default class App extends Component {
   constructor(props) {
@@ -21,14 +23,19 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Title />
-        <Router>
-          <Switch>
-            <Route exact path="/" component={HomePage} />
-            <Route exact path="/Gallery" component={GalleryPage} />
-            <Route exact path="/Contact" component={ContactPage} />
-          </Switch>
-        </Router>
+        <div>
+          <Title />
+        </div>
+        <div className="body">
+          <Router>
+            <Switch>
+              <Route exact path="/" component={HomePage} />
+              <Route exact path="/Gallery" component={GalleryPage} />
+              <Route exact path="/Contact" component={ContactPage} />
+              <Route exact path="/About" component={AboutMe} />
+            </Switch>
+          </Router>
+        </div>
       </div>
     );
   }

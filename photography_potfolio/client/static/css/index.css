@@ -18,3 +18,20 @@ body {
   height: 100%;
   display: flex;
 }
+
+.title {
+  font-family: "Alex Brush", cursive;
+  font-size: 2.8em !important;
+}
+
+.nav-style {
+  height: 90px;
+}
+
+.nav {
+  justify-content: right;
+}
+
+.body {
+  padding-top: 90px;
+}

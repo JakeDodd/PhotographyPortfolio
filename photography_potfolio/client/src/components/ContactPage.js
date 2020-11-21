@@ -4,7 +4,7 @@ import Title from "./Title";
 const ContactPage = () => {
   return (
     <div>
-      <p>Contact</p>
+      <p >Contact</p>
     </div>
   );
 };
