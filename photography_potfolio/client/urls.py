@@ -6,4 +6,5 @@ urlpatterns = [
     path('Gallery', index),
     path('Contact', index),
     path('About', index),
+    path('ImportImage', index),
 ]

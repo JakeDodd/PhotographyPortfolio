@@ -5,6 +5,7 @@ import GalleryPage from "./GalleryPage";
 import ContactPage from "./ContactPage";
 import AboutMe from "./AboutMe";
 import Title from "./Title";
+import ImportImage from "./ImportImage";
 import {
   BrowserRouter as Router,
   Switch,
@@ -33,6 +34,7 @@ export default class App extends Component {
               <Route exact path="/Gallery" component={GalleryPage} />
               <Route exact path="/Contact" component={ContactPage} />
               <Route exact path="/About" component={AboutMe} />
+              <Route exact path="/ImportImage" component={ImportImage} />
             </Switch>
           </Router>
         </div>
