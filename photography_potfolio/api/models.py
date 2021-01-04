@@ -1,9 +1,10 @@
 from django.db import models
 from django.core.files.storage import FileSystemStorage
 
-fs = FileSystemStorage(location='/static/images')
 
 # Create your models here.
+def upload_path(instance, filename):
+    return '/'.join(['images', str(instance.name), filename])
 
 
 class Portfolio(models.Model):
@@ -13,5 +14,5 @@ class Portfolio(models.Model):
 
 class Picture(models.Model):
     name = models.CharField(max_length=255, unique=True)
-    portfolio = models.ForeignKey(Portfolio, on_delete=models.CASCADE)
-    image = models.ImageField(storage=fs)
+    # portfolio = models.ForeignKey(Portfolio, on_delete=models.CASCADE)
+    image = models.ImageField(blank=True, null=True, upload_to=upload_path)
