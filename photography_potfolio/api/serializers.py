@@ -5,10 +5,10 @@ from .models import Portfolio, Picture
 class PortfolioSerializer(serializers.ModelSerializer):
     class Meta:
         model = Portfolio
-        fields = ('name', 'description')
+        fields = ('portfolioName', 'description')
 
 
 class PictureSerializer(serializers.ModelSerializer):
     class Meta:
         model = Picture
-        fields = ('name', 'image')
+        fields = ('imageName', 'portfolioName', 'image')
