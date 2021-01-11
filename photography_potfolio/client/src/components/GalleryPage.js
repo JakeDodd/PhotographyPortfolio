@@ -1,13 +1,24 @@
 import React, {useEffect, useState} from "react";
-import useInput from "../utils/useInput";
+import { useParams } from "react-router-dom";
+import ImageList from "./ImageList";
 
-const GalleryPage = () => {
-  const [portfolioList, setPortfolioList] = useState([]);
+const GalleryPage = (props) => {
+  const [images, setImages] = useState([]);
 
+  let { portfolio } = useParams();
+  
+  useEffect(async () => {
+    const url = "/api/get-images?portfolio=" + portfolio
+    const response = await fetch(url);
+    const data = await response.json();
+    console.log(data);
+    setImages(data);
+  }, [])
 
   return (
     <div>
-      <p>Gallery</p>
+      <h1>{portfolio}</h1>
+      <ImageList images={images} />
     </div>
   );
 };

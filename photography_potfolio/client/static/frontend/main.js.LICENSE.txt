@@ -134,7 +134,29 @@
 
 /*! export __esModule [not provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export afterMain [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export afterRead [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export afterWrite [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export alignPropType [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export auto [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export basePlacements [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export beforeMain [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export beforeRead [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export beforeWrite [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export bottom [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export canAcceptRef [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export clippingParents [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export cloneElement [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -164,6 +186,8 @@
 
 /*! export createPath [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export createPopper [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export createPortal [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export createPortal [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.production.min.js .createPortal */
@@ -175,6 +199,12 @@
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export defaultKey [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export detectOverflow [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/@popperjs/core/lib/utils/detectOverflow.js .default */
+
+/*! export distanceAndSkiddingToXY [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export end [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export findDOMNode [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -224,6 +254,8 @@
 
 /*! export isFragment [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.production.min.js .isFragment */
 
+/*! export isHTMLElement [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export isLazy [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export isLazy [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.production.min.js .isLazy */
@@ -241,6 +273,8 @@
 /*! export isProfiler [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.production.min.js .isProfiler */
 
 /*! export isProp [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export isShadowRoot [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export isStrictMode [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -262,9 +296,15 @@
 
 /*! export lazy [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.production.min.js .lazy */
 
+/*! export left [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export locationsAreEqual [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export main [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export makeEventKey [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export mapToStyles [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export matchPath [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -276,17 +316,41 @@
 
 /*! export mergeRefs [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export modifierPhases [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export onceSupported [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export optionsSupported [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export parsePath [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export placements [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export placements [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/@popperjs/core/lib/enums.js .placements */
+
 /*! export polyfill [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export popper [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export popperGenerator [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export read [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export reference [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export render [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export render [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.production.min.js .render */
+
+/*! export right [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export start [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export toModifierArray [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export toModifierMap [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export top [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export typeOf [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -402,6 +466,10 @@
 
 /*! export useDebugValue [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.production.min.js .useDebugValue */
 
+/*! export useDropdownMenu [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export useDropdownToggle [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export useEffect [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export useEffect [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.production.min.js .useEffect */
@@ -452,15 +520,21 @@
 
 /*! export useUncontrolledProp [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/uncontrollable/esm/hook.js .useUncontrolledProp */
 
+/*! export variationPlacements [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export version [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export version [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.production.min.js .version */
 
 /*! export version [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.production.min.js .version */
 
+/*! export viewport [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export withRouter [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export withRouter [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .withRouter */
+
+/*! export write [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! exports [not provided] [no usage info] */
 
@@ -528,6 +602,10 @@
   !*** ./src/components/Title.js ***!
   \*********************************/
 
+/*!**********************************!*\
+  !*** ./static/css/ImageList.css ***!
+  \**********************************/
+
 /*!***********************************!*\
   !*** ./src/components/AboutMe.js ***!
   \***********************************/
@@ -538,6 +616,14 @@
 
 /*!*************************************!*\
   !*** ./node_modules/react/index.js ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/components/ImageCard.js ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/components/ImageList.js ***!
   \*************************************/
 
 /*!***************************************!*\
@@ -605,6 +691,10 @@
   \************************************************/
 
 /*!*************************************************!*\
+  !*** ./node_modules/dom-helpers/esm/matches.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/Nav.js ***!
   \*************************************************/
 
@@ -613,7 +703,19 @@
   \*************************************************/
 
 /*!**************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/enums.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
   !*** ./node_modules/dom-helpers/esm/camelize.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/dom-helpers/esm/contains.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/dom-helpers/esm/hasClass.js ***!
   \**************************************************/
 
 /*!**************************************************!*\
@@ -635,6 +737,14 @@
 /*!***************************************************!*\
   !*** ./node_modules/dom-helpers/esm/hyphenate.js ***!
   \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/react-overlays/esm/popper.js ***!
+  \***************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/Button.js ***!
+  \****************************************************/
 
 /*!****************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/Navbar.js ***!
@@ -661,12 +771,28 @@
   \*****************************************************/
 
 /*!*****************************************************!*\
+  !*** ./node_modules/react-overlays/esm/Dropdown.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
   !*** ./node_modules/value-equal/esm/value-equal.js ***!
   \*****************************************************/
 
 /*!******************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/Collapse.js ***!
   \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/Dropdown.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/react-overlays/esm/usePopper.js ***!
+  \******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/@restart/hooks/esm/useMounted.js ***!
+  \*******************************************************/
 
 /*!*******************************************************!*\
   !*** ./node_modules/dom-helpers/esm/ownerDocument.js ***!
@@ -683,6 +809,10 @@
 /*!*******************************************************!*\
   !*** ./node_modules/react-router/esm/react-router.js ***!
   \*******************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/@restart/hooks/esm/usePrevious.js ***!
+  \********************************************************/
 
 /*!********************************************************!*\
   !*** ./node_modules/dom-helpers/esm/hyphenateStyle.js ***!
@@ -705,6 +835,18 @@
   \********************************************************/
 
 /*!*********************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/createPopper.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/within.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/@restart/hooks/esm/useSafeState.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/AbstractNav.js ***!
   \*********************************************************/
 
@@ -713,7 +855,19 @@
   \*********************************************************/
 
 /*!*********************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/NavDropdown.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/NavbarBrand.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/react-overlays/esm/DropdownMenu.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/react-overlays/esm/useRootClose.js ***!
   \*********************************************************/
 
 /*!**********************************************************!*\
@@ -733,8 +887,36 @@
   \**********************************************************/
 
 /*!**********************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/DropdownItem.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/DropdownMenu.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/NavbarToggle.js ***!
   \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/react-overlays/esm/ownerDocument.js ***!
+  \**********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/modifiers/flip.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/modifiers/hide.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/debounce.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/@restart/hooks/esm/useCallbackRef.js ***!
+  \***********************************************************/
 
 /*!***********************************************************!*\
   !*** ./node_modules/@restart/hooks/esm/useForceUpdate.js ***!
@@ -753,6 +935,10 @@
   \***********************************************************/
 
 /*!***********************************************************!*\
+  !*** ./node_modules/react-overlays/esm/DropdownToggle.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
   !*** ./node_modules/react-transition-group/esm/config.js ***!
   \***********************************************************/
 
@@ -765,12 +951,36 @@
   \************************************************************/
 
 /*!************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/modifiers/arrow.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
   !*** ./node_modules/@restart/hooks/esm/useCommittedRef.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/DropdownToggle.js ***!
   \************************************************************/
 
 /*!************************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/NavbarCollapse.js ***!
   \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/react-overlays/esm/DropdownContext.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/react-overlays/esm/safeFindDOMNode.js ***!
+  \************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/modifiers/offset.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/getAltAxis.js ***!
+  \*************************************************************/
 
 /*!*************************************************************!*\
   !*** ./node_modules/@restart/hooks/esm/useEventCallback.js ***!
@@ -793,8 +1003,20 @@
   \*************************************************************/
 
 /*!**************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/mergeByName.js ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
   !*** ./node_modules/react-is/cjs/react-is.production.min.js ***!
   \**************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/contains.js ***!
+  \***************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/getVariation.js ***!
+  \***************************************************************/
 
 /*!***************************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/SelectableContext.js ***!
@@ -813,6 +1035,14 @@
   \***************************************************************/
 
 /*!****************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getWindow.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/prop-types-extra/lib/isRequiredForA11y.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/createWithBsPrefix.js ***!
   \****************************************************************/
 
@@ -828,8 +1058,32 @@
   !*** ./node_modules/tiny-invariant/dist/tiny-invariant.esm.js ***!
   \****************************************************************/
 
+/*!*****************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/instanceOf.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/computeOffsets.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/detectOverflow.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/orderModifiers.js ***!
+  \*****************************************************************/
+
 /*!******************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getNodeName.js ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/expandToHashMap.js ***!
   \******************************************************************/
 
 /*!******************************************************************!*\
@@ -841,16 +1095,148 @@
   \******************************************************************/
 
 /*!*******************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/getBasePlacement.js ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/rectToClientRect.js ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/createChainedFunction.js ***!
   \*******************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getNodeScroll.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getParentNode.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/modifiers/computeStyles.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/modifiers/popperOffsets.js ***!
+  \********************************************************************/
 
 /*!********************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./static/css/index.css ***!
   \********************************************************************/
 
+/*!*********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/isTableElement.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/modifiers/eventListeners.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/getFreshSideObject.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/mergePaddingObject.js ***!
+  \*********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getClippingRect.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getDocumentRect.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getScrollParent.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getViewportRect.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/modifiers/preventOverflow.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/usePopperMarginModifiers.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/useWrappedRefWithWarning.js ***!
+  \**********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/getOppositePlacement.js ***!
+  \***********************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./static/css/ImageList.css ***!
+  \************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/react-overlays/esm/mergeOptionsWithPopperConfig.js ***!
+  \*************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js ***!
+  \**************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js ***!
+  \***************************************************************************/
+
 /*!***************************************************************************!*\
   !*** ./node_modules/react-transition-group/esm/TransitionGroupContext.js ***!
   \***************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js ***!
+  \****************************************************************************/
 
 /*!****************************************************************************!*\
   !*** ./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js ***!
@@ -863,6 +1249,10 @@
 /*!*******************************************************************************!*\
   !*** ./node_modules/prop-types-extra/lib/utils/createChainableTypeChecker.js ***!
   \*******************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js ***!
+  \********************************************************************************/
 
 /*!*********************************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js ***!

@@ -31,7 +31,7 @@ export default class App extends Component {
           <Router>
             <Switch>
               <Route exact path="/" component={HomePage} />
-              <Route exact path="/Gallery" component={GalleryPage} />
+              <Route path="/Gallery/:portfolio" component={GalleryPage} />
               <Route exact path="/Contact" component={ContactPage} />
               <Route exact path="/About" component={AboutMe} />
               <Route exact path="/ImportImage" component={ImportImage} />
