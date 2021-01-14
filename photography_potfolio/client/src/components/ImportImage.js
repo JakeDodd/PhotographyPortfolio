@@ -52,6 +52,20 @@ const ImportImage = (props) => {
     .catch(error => console.log(error))
   }
 
+  const handlePortfolioDelete = async () => {
+    const requestOptions = {
+      method: "DELETE",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        portfolioName: imagePortfolio
+      }),
+    }
+
+    await fetch("/api/delete-portfolio", requestOptions)
+    .then((res) => res.json())
+    .catch(error => console.log(error))
+  }
+
   return (
     <div>
       <div>
@@ -67,6 +81,20 @@ const ImportImage = (props) => {
         </label>
         <br/>
         <button onClick={() => handlePortfolioSubmit()}>New Portfolio</button>
+      </div>
+      <br/>
+      <div>
+        <h1>Delete Portfolio</h1>
+        <label>
+          Portfolio
+          <select onChange={e => {setImagePortfolio(e.target.value)}} value={imagePortfolio}>
+            {portfolioList.map(port => (
+              <option>{port}</option>
+            ))}
+          </select>
+        </label>
+        <br/>
+        <button onClick={() => handlePortfolioDelete()}>Delete Portfolio</button>
       </div>
       <br/>
       <div>

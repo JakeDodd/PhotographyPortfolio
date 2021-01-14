@@ -36,13 +36,18 @@ class PostPictureView(APIView):
     serializer_class = PictureSerializer
 
     def post(self, request, format=None):
-        imageName = request.data['imageName']
         portfolioName = request.data['portfolioName']
+        portfolio = Portfolio.objects.filter(
+            portfolioName=portfolioName).get()
+        imageName = request.data['imageName']
         image = request.data['image']
-        portfolio = Portfolio.objects.filter(portfolioName=portfolioName).get()
-        Picture.objects.create(imageName=imageName,
-                               portfolioName=portfolio, image=image)
-        return HttpResponse({'message': 'Picture created'}, status=status.HTTP_201_CREATED)
+        serializer = self.serializer_class(
+            data={'imageName': imageName, 'portfolioName': portfolio, 'image': image})
+        if serializer.is_valid():
+            Picture.objects.create(imageName=imageName,
+                                   portfolioName=portfolio, image=image)
+            return HttpResponse({'message': 'Picture created'}, status=status.HTTP_201_CREATED)
+        return HttpResponse({'Bad Request': 'Bad Image data'}, status=status.HTTP_400_BAD_REQUEST)
 
 
 class GetPicturesByPortfolio(APIView):
@@ -57,5 +62,17 @@ class GetPicturesByPortfolio(APIView):
             if len(images) > 0:
                 data = PictureSerializer(images, many=True).data
                 return Response(data, status=status.HTTP_200_OK)
-            return Response({'No Images Found': 'Invalid Portfolio'}, status=status.HTTP_404_NOT_FOUND)
-        return Response({'Bad Request': 'Portfolio parameter not found'}, status=status.HTTP_400_BAD_REQUEST)
+            return HttpResponse({'No Images Found': 'Invalid Portfolio'}, status=status.HTTP_404_NOT_FOUND)
+        return HttpResponse({'Bad Request': 'Portfolio parameter not found'}, status=status.HTTP_400_BAD_REQUEST)
+
+
+class DeletePortfolio(APIView):
+    serializer_class = PortfolioSerializer
+
+    def delete(self, request, format=None):
+        portfolioName = request.data['portfolioName']
+        portfolio = Portfolio.objects.filter(portfolioName=portfolioName)
+        if portfolio.exists():
+            portfolio.delete()
+            return HttpResponse({'message': 'Portfolio Deleted'}, status=status.HTTP_200_OK)
+        return HttpResponse({'Not Found': 'Invalid Portfolio Name'}, status=status.HTTP_404_NOT_FOUND)

@@ -11,7 +11,6 @@ const GalleryPage = (props) => {
     const url = "/api/get-images?portfolio=" + portfolio
     const response = await fetch(url);
     const data = await response.json();
-    console.log(data);
     setImages(data);
   }, [])
 

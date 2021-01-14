@@ -11,4 +11,4 @@ class PortfolioSerializer(serializers.ModelSerializer):
 class PictureSerializer(serializers.ModelSerializer):
     class Meta:
         model = Picture
-        fields = ('imageName', 'portfolioName', 'image')
+        fields = ('imageName', 'image')
